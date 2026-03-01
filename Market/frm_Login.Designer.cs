@@ -48,8 +48,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(634, 40);
+            this.panel1.Size = new System.Drawing.Size(845, 49);
             this.panel1.TabIndex = 0;
             // 
             // label1
@@ -57,9 +58,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(4, 4);
+            this.label1.Location = new System.Drawing.Point(5, 5);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 20);
+            this.label1.Size = new System.Drawing.Size(201, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "INICIO DE SESIÓN";
             // 
@@ -67,7 +69,8 @@
             // 
             this.pbox_img.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pbox_img.Image = ((System.Drawing.Image)(resources.GetObject("pbox_img.Image")));
-            this.pbox_img.Location = new System.Drawing.Point(46, 69);
+            this.pbox_img.Location = new System.Drawing.Point(61, 85);
+            this.pbox_img.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbox_img.Name = "pbox_img";
             this.pbox_img.Size = new System.Drawing.Size(100, 100);
             this.pbox_img.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -79,9 +82,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(54, 176);
+            this.label2.Location = new System.Drawing.Point(83, 228);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 13);
+            this.label2.Size = new System.Drawing.Size(88, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "MINIMARKET";
             // 
@@ -90,9 +94,10 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(220, 90);
+            this.label3.Location = new System.Drawing.Point(293, 111);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 16);
+            this.label3.Size = new System.Drawing.Size(107, 20);
             this.label3.TabIndex = 3;
             this.label3.Text = "Usuario (*):";
             // 
@@ -101,26 +106,29 @@
             this.lbl_Pass.AutoSize = true;
             this.lbl_Pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Pass.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_Pass.Location = new System.Drawing.Point(220, 133);
+            this.lbl_Pass.Location = new System.Drawing.Point(293, 164);
+            this.lbl_Pass.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Pass.Name = "lbl_Pass";
-            this.lbl_Pass.Size = new System.Drawing.Size(99, 16);
+            this.lbl_Pass.Size = new System.Drawing.Size(124, 20);
             this.lbl_Pass.TabIndex = 4;
             this.lbl_Pass.Text = "Password (*):";
             // 
             // txt_User
             // 
             this.txt_User.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_User.Location = new System.Drawing.Point(329, 80);
+            this.txt_User.Location = new System.Drawing.Point(439, 98);
+            this.txt_User.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_User.Name = "txt_User";
-            this.txt_User.Size = new System.Drawing.Size(240, 26);
+            this.txt_User.Size = new System.Drawing.Size(319, 30);
             this.txt_User.TabIndex = 5;
             // 
             // txt_Pass
             // 
             this.txt_Pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Pass.Location = new System.Drawing.Point(329, 123);
+            this.txt_Pass.Location = new System.Drawing.Point(439, 151);
+            this.txt_Pass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_Pass.Name = "txt_Pass";
-            this.txt_Pass.Size = new System.Drawing.Size(240, 26);
+            this.txt_Pass.Size = new System.Drawing.Size(319, 30);
             this.txt_Pass.TabIndex = 6;
             // 
             // btn_Ingresar
@@ -129,9 +137,10 @@
             this.btn_Ingresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ingresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_Ingresar.Location = new System.Drawing.Point(329, 159);
+            this.btn_Ingresar.Location = new System.Drawing.Point(439, 196);
+            this.btn_Ingresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Ingresar.Name = "btn_Ingresar";
-            this.btn_Ingresar.Size = new System.Drawing.Size(115, 30);
+            this.btn_Ingresar.Size = new System.Drawing.Size(153, 37);
             this.btn_Ingresar.TabIndex = 7;
             this.btn_Ingresar.Text = "INICIAR";
             this.btn_Ingresar.UseVisualStyleBackColor = false;
@@ -143,9 +152,10 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(454, 159);
+            this.button2.Location = new System.Drawing.Point(605, 196);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(115, 30);
+            this.button2.Size = new System.Drawing.Size(153, 37);
             this.button2.TabIndex = 8;
             this.button2.Text = "SALIR";
             this.button2.UseVisualStyleBackColor = false;
@@ -153,10 +163,10 @@
             // 
             // frm_Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(634, 241);
+            this.ClientSize = new System.Drawing.Size(845, 297);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_Ingresar);
             this.Controls.Add(this.txt_Pass);
@@ -167,6 +177,8 @@
             this.Controls.Add(this.pbox_img);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "frm_Login";

@@ -165,5 +165,10 @@ namespace Market
             SessionActual.CerrarSession();
             Close();
         }
+
+        private void pbox_Imagen_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
